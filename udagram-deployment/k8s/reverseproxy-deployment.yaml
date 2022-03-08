@@ -15,7 +15,7 @@ spec:
         service: reverseproxy
     spec:
       containers:
-      - image: ttranphuc99/udagram-reverseproxy:v6
+      - image: ttranphuc99/udagram-reverseproxy:v7
         name: reverseproxy
         imagePullPolicy: Always          
         resources:
@@ -26,6 +26,6 @@ spec:
             memory: "2048Mi"
             cpu: "500m"       
         ports:
-        - containerPort: 8080
+        - containerPort: 8100
       restartPolicy: Always
 
