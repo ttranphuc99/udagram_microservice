@@ -7,6 +7,6 @@ data:
   JWT_SECRET: 97MbRnm/GtzGb28RvcEyHPLIxAoyXPqXWgarPETf
   POSTGRES_DB: udagram
   POSTGRES_HOST: database-1.cv2nmjuiwlvy.ap-southeast-1.rds.amazonaws.com
-  URL: http://a7fa8f4bf59674c3b98a251dc2956471-587814683.us-east-2.elb.amazonaws.com
+  URL: http://a132ccb1faba84912aac2a494e54e28d-1805546937.us-east-2.elb.amazonaws.com
 metadata:
   name: env-config
